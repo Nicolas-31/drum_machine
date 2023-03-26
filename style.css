@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 33vh;
+}
+
+.audioClips {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.drum-pad{
+    border: 3px solid orange;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+    border-radius: 20px;
+}
+
+.drum-pad:hover {
+    background-color: yellow;
+    color: red;
+}
